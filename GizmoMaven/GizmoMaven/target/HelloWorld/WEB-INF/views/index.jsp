@@ -106,7 +106,7 @@ body {
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="resources/images/sony.PNG">
+				<img src="resources/images/sony.PNG"></img>
 				<div class="carousel-caption">
 
 					<p align="center">
@@ -116,7 +116,7 @@ body {
 			</div>
 
 			<div class="item">
-				<img src="resources/images/Lenovo.PNG">
+				<img src="resources/images/Lenovo.PNG"></img>
 				<div class="carousel-caption">
 					<h5>
 						<font color="white">Lenovo K3 Note--with powerful 8 MP
@@ -126,7 +126,7 @@ body {
 			</div>
 
 			<div class="item">
-				<img src="resources/images/App.PNG">
+				<img src="resources/images/App.PNG"></img>
 				<div class="carousel-caption">
 
 					<p>
@@ -136,7 +136,7 @@ body {
 			</div>
 
 			<div class="item">
-				<img src="resources/images/band.PNG">
+				<img src="resources/images/band.PNG"></img>
 				<div class="carousel-caption">
 					<h3>
 						<font color="white">Power lies on your wrist!</font>
