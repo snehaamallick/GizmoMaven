@@ -30,5 +30,9 @@ public class GizmoMavenController {
 	{
 		return "Contact";
 	}
-	
+	@RequestMapping("/user_product_page")
+	public String loaduserproductpage()
+	{
+		return "user_product_page";
+	}
 }

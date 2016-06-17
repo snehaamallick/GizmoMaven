@@ -44,7 +44,7 @@ body {
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
  		<div class="navbar-header">
- 		<a class="navbar-brand" href="index.jsp"><b>GizmoHub</b>
+ 		<a class="navbar-brand" href="gotoindex"><b>GizmoHub</b>
  		</a>
  		</div>
  	<ul class="nav navbar-nav">
@@ -79,8 +79,8 @@ body {
     
         
     
-      <li><a href="aboutus.jsp"><b>About us</b></a></li> 
-     <li><a href="Contact.jsp"><b>Contact us</b></a></li>
+      <li><a href="aboutus"><b>About us</b></a></li> 
+     <li><a href="Contact"><b>Contact us</b></a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="signup.jsp"><span class="glyphicon glyphicon-user"></span><b>Sign Up</b></a></li>
