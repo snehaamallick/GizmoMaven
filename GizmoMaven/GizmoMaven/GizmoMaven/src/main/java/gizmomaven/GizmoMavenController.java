@@ -1,14 +1,18 @@
 package gizmomaven;
+import java.util.ArrayList;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.google.gson.Gson;
+
+import daoimplementations.ProductDAOImpl;
+import models.Product;
+
 @Controller
 public class GizmoMavenController {
-
-	
 	@RequestMapping(value={"/","gotoindex"})
 	public String loadIndexPage()
 	{
@@ -31,8 +35,28 @@ public class GizmoMavenController {
 		return "Contact";
 	}
 	@RequestMapping("/user_product_page")
-	public String loaduserproductpage()
+	public ModelAndView loaduserproductpage()
 	{
-		return "user_product_page";
+		ProductDAOImpl pdi=new ProductDAOImpl();
+		ArrayList<Product> listofproducts=new ArrayList<Product>();
+		listofproducts=pdi.productLists();
+		String json = new Gson().toJson(listofproducts);  // converting list into Google Gson object which is a string
+		
+		ModelAndView mv=new ModelAndView("user_product_page");
+		mv.addObject("myJson", json);
+		return mv;
+		//return "user_product_page";
 	}
+	/*@RequestMapping("/admin")
+	public ModelAndView loadadminpage()
+	{
+		ProductDAOImpl pdi=new ProductDAOImpl();
+		ArrayList<Product> listofproducts=new ArrayList<Product>();
+		listofproducts=pdi.productLists();
+		String json = new Gson().toJson(listofproducts);  // converting list into Google Gson object which is a string
+		
+		ModelAndView mv=new ModelAndView("admin");
+		mv.addObject("myJson", json);
+		return mv;
+	}*/
 }
