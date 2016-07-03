@@ -110,7 +110,7 @@ body {
 			</div>
 
 			<div class="item">
-				<img src="/resources/images/App.PNG"></img>
+				<img src="resources/images/App.PNG"></img>
 				<div class="carousel-caption">
 
 					<p>
@@ -120,7 +120,7 @@ body {
 			</div>
 
 			<div class="item">
-				<img src="/resources/images/band.PNG"></img>
+				<img src="resources/images/band.PNG"></img>
 				<div class="carousel-caption">
 					<h3>
 						<font color="white">Power lies on your wrist!</font>

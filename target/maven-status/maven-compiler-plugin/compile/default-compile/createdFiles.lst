@@ -1,0 +1,3 @@
+models\Product.class
+gizmomaven\GizmoMavenController.class
+daoimplementations\ProductDAOImpl.class
