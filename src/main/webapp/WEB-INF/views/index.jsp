@@ -46,12 +46,12 @@ body {
 						class="caret"> </span>
 				</a>
 					<ul class="dropdown-menu">
-						<li><a href="user_product_page">Android phone</a></li>
+						<li><a href="students">Android phone</a></li>
 
 
 
 						<li><a href="admn">I-Phone</a></li>
-						<li><a href="user_product_page">Windows Phone</a></li>
+						<li><a href="studentdetails">Windows Phone</a></li>
 					</ul></li>
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="https://www.google.co.in/"><b>Smart

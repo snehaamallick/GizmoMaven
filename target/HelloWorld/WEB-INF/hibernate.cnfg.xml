@@ -34,7 +34,7 @@
         </beans:property>          
      	<beans:property name="packagesToScan">
          	<beans:list>
-              	<beans:value>model</beans:value>  
+              	<beans:value>models</beans:value>  
          	</beans:list>
      </beans:property>               
     </beans:bean>

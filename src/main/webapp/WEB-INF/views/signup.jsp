@@ -49,7 +49,7 @@ body {
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
  		<div class="navbar-header">
- 		<a class="navbar-brand" href="index.jsp"><b>GizmoHub</b>
+ 		<a class="navbar-brand" href="gotoindex"><b>GizmoHub</b>
  		</a>
  		</div>
  	<ul class="nav navbar-nav">
@@ -116,7 +116,6 @@ Email id:
 <option>Afganishthan</option>
 </select>
 <input type="submit" value="Submit" />
-
 
 
 </form>

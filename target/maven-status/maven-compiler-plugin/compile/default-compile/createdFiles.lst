@@ -1,3 +1,5 @@
+daoimplementations\ProductDAO.class
+service\ProductServiceImpl.class
 models\Product.class
 gizmomaven\GizmoMavenController.class
 daoimplementations\ProductDAOImpl.class

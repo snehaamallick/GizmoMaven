@@ -24,7 +24,7 @@
        <param-name>contextConfigLocation</param-name>
        <param-value>
            /WEB-INF/dispatcher-servlet.xml,
-           /WEB-INF/hibernate.cnfg.xml,
+           /WEB-INF/hibernate.cnfg.xml
         </param-value>
    </context-param>
  
