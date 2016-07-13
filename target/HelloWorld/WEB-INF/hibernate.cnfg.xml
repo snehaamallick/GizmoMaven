@@ -23,20 +23,29 @@
     
 	<!-- Hibernate 4 SessionFactory Bean definition -->
 	<beans:bean id="sessionFactory"  class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
-        <beans:property name="dataSource" ref="dataSource" />  
+        <beans:property name="dataSource" ref="dataSource" />
+       
+        
+   
+       
         <beans:property name="hibernateProperties">
             <beans:props>
                 <beans:prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect
                 </beans:prop>
                 <beans:prop key="hibernate.show_sql">true</beans:prop>
-                <beans:prop key="hibernate.hbm2ddl.auto">update</beans:prop>   
+                <beans:prop key="hibernate.hbm2ddl.auto">update</beans:prop>
+               
             </beans:props>
-        </beans:property>          
+        </beans:property>       
      	<beans:property name="packagesToScan">
          	<beans:list>
               	<beans:value>models</beans:value>  
          	</beans:list>
      </beans:property>               
+    </beans:bean>
+    
+     <beans:bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <beans:property name="sessionFactory" ref="sessionFactory" />
     </beans:bean>
 
 

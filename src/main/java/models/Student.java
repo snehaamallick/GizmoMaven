@@ -6,6 +6,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
+import org.springframework.web.multipart.MultipartFile;
 @Entity
 @Table(name="STUDENTS")
 public class Student {
@@ -18,6 +21,17 @@ public class Student {
 	String contact;
 	String address;
 	String status;
+	
+	@Transient
+	MultipartFile image;
+	public MultipartFile getImage() {
+		return image;
+	}
+	public void setImage(MultipartFile image) {
+		this.image = image;
+	}
+	
+	
 	public Student()
 	{
 		

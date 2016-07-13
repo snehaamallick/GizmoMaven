@@ -1,5 +1,4 @@
-daoimplementations\ProductDAO.class
-service\ProductServiceImpl.class
-models\Product.class
+gizmomaven\StudentService.class
+models\Student.class
+daoimplementations\StudentDAOImpl.class
 gizmomaven\GizmoMavenController.class
-daoimplementations\ProductDAOImpl.class

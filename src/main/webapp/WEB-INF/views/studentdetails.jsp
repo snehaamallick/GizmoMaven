@@ -121,16 +121,15 @@
         	<tr>
         		<td>${element.id}</td>
 
-        		<td>${element.fname}</td>
-
+				<td>${element.fname}</td>
+					
         		<td>${element.lname}</td>
-        		
+
         		<td>${element.contact}</td>
 
         		<td>${element.address}</td>
 
         		<td>${element.status}</td>
-
         		<td><a href="<c:url value='/edit/${element.id}' />" >Edit</a></td>
             	<td><a href="<c:url value='/remove/${element.id}' />" >Delete</a></td>
         	</tr>
@@ -139,6 +138,9 @@
 	</table>
 </div>
 </center>
+
+
+
 </body>
 <script>
 $(document).ready(function(){

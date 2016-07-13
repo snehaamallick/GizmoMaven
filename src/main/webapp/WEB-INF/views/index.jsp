@@ -46,19 +46,19 @@ body {
 						class="caret"> </span>
 				</a>
 					<ul class="dropdown-menu">
-						<li><a href="students">Android phone</a></li>
+						<li><a href="sd">Android phone</a></li>
 
 
 
-						<li><a href="admn">I-Phone</a></li>
+						<li><a href="students">I-Phone</a></li>
 						<li><a href="studentdetails">Windows Phone</a></li>
 					</ul></li>
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="https://www.google.co.in/"><b>Smart
 							Devices</b> <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="admn">Smart Band</a></li>
-						<li><a href="admn">Smart Watches</a></li>
+						<li><a href="upload">Smart Band</a></li>
+						<li><a href="#">Smart Watches</a></li>
 
 					</ul></li>
 
