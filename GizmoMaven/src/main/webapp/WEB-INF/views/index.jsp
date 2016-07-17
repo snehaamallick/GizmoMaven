@@ -24,14 +24,14 @@ body {
 }
 </style>
 
-
 </head>
 
 
 <body>
+<%@ include file='header.jsp'%>
 
 
-	<nav class="navbar navbar-inverse">
+	<!--  <nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="gotoindex"><b>GizmoHub</b> </a>
@@ -76,7 +76,7 @@ body {
 				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span><b>Login</b></a></li>
 			</ul>
 		</div>
-	</nav>
+	</nav>-->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
@@ -173,7 +173,7 @@ body {
 		<div class="container-fluid">
 			<center>
 				<font color="white">copyright <span
-					class="glyphicon glyphicon-copyright-mark">SnehaMallick_2016</font>
+					class="glyphicon glyphicon-copyright-mark">AllRightsReserved_2016</font>
 			</center>
 		</div>
 		</div>

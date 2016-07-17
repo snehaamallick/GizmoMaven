@@ -33,6 +33,7 @@ import models.Student;
 
 
 
+
 @Controller
 public class GizmoMavenController {
 	@RequestMapping(value={"/","gotoindex"})
@@ -45,21 +46,35 @@ public class GizmoMavenController {
 	{
 		return "aboutus";
 	}
-	@RequestMapping("/signup")
+	/*@RequestMapping("/signup")
 	public String loadSignUpPage()
 	{
 		return "signup";
-	}
+	}*/
 	@RequestMapping("/Contact")
 	public String loadContactPage()
 	{
 		return "Contact";
 	}
 private StudentService ss;
-	
+//private UserService us;
+
+
+ 	/*@RequestMapping(value="/signup/add", method = RequestMethod.POST)
+   	public String addUser(@ModelAttribute("user") User u)
+   	{
+   		if(u.getId() == 0)
+   		{
+   			this.us.addUser(u);
+   		}
+   		return "signup";
+   		
+   	}*/
+
 	@Autowired
 	public GizmoMavenController(StudentService ss) {
 		this.ss=ss;
+		//this.us=us;
 	}
 	
 	 @RequestMapping(value = "/students", method = RequestMethod.GET)
@@ -115,21 +130,6 @@ private StudentService ss;
          }
   }
              
-             
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
 	       /* if(p.getId() == 0){
 	            //new person, add it
 	            this.ss.addPerson(p);

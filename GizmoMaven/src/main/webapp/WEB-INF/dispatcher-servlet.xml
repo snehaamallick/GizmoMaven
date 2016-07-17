@@ -29,7 +29,11 @@
 	<bean id="sdi" class="daoimplementations.StudentDAOImpl"></bean>
 	
 	<bean id="ss" class="gizmomaven.StudentService"></bean>
-
+	<bean id="udi" class="daoimplementations.UserDAOImpl"></bean>
+	<bean id="us" class="gizmomaven.UserService"></bean>
+	
+	
+	
 <!-- ==== Creating bean for multipart ====== -->
 
 <bean id="multipartResolver"

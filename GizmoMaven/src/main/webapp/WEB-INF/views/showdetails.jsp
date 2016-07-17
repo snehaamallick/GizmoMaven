@@ -6,6 +6,15 @@
 <html>
 <head>
 	<title>Home</title> 
+	
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery.js"></script>
@@ -16,6 +25,8 @@
 	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<%@ include file='header.jsp'%>
+
 <table class="table">
 	<thead colspan="3">
 	<th><h1>Details</h1></th>
@@ -43,7 +54,7 @@
 		</tr>
 		<tr>
 		<td><b>Status</b></td>
-		<td><%= request.getParameter("status") %></td>
+		<td>${param.status}</td>
 		</tr>
 		<tr>
 			<td colspan="3"><b>Product Description</b></td>
